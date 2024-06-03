@@ -130,7 +130,7 @@ export default function NavBar() {
             "Introduction",
             "CVS - EPA",
             "Overview/Team and Responsibilities",
-            "What's Next? Continuous Learning",
+            "What's Next?",
             "Special Thanks",
           ].map((text, index) => (
             <ListItem key={text} disablePadding>

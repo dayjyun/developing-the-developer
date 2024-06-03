@@ -1,8 +1,10 @@
 import "./App.css";
-import Thanks from "./components/Thanks";
+import SpecialThanks from "./components/SpecialThanks/SpecialThanks";
 import { Container } from "@mui/material";
 import NavBar from "./components/navbar/NavBar";
-import EPAWorld from "./components/EPA World";
+import EPAWorld from "./components/EPA World/EPAWorld";
+import Next from "./components/Next/Next";
+import Overview from "./components/Overview/Overview";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <NavBar />
       <Container sx={{ minWidth: 320 }}>
         <EPAWorld />
-        <Thanks />
+        <Overview />
+        <Next />
+        <SpecialThanks />
       </Container>
     </div>
   );
