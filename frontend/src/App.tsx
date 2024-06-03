@@ -1,12 +1,15 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import { NavBar } from "./components/navbar/navbar";
+import Thanks from "./components/Thanks";
+import { Container } from "@mui/material";
+import NavBar from "./components/navbar/NavBar";
 
 function App() {
   return (
     <div>
       <NavBar />
+      <Container sx={{ minWidth: 320 }}>
+        <Thanks/>
+      </Container>
     </div>
   );
 }
