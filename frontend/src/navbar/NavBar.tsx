@@ -17,7 +17,6 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import PublicIcon from "@mui/icons-material/Public";
 
 const drawerWidth = 240;
@@ -129,7 +128,8 @@ export default function NavBar() {
           {[
             "Introduction",
             "CVS - EPA",
-            "Overview/Team and Responsibilities",
+            "Overview",
+            "Challenges",
             "What's Next?",
             "Special Thanks",
           ].map((text, index) => (
