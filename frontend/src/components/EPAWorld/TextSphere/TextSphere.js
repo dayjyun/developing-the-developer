@@ -7,7 +7,6 @@ export default function TextSphere() {
   useEffect(() => {
     return () => {
       let radii;
-      const container = ".tagcloud"
       const texts = [
         "APM",
         "DevEco",
@@ -32,13 +31,13 @@ export default function TextSphere() {
         if (window.screen.width <= 778) {
           radii = 150;
         } else {
-          radii = 290;
+          radii = 280;
         }
         return radii;
       }
 
       const options = {
-        radius: 300,
+        radius: radiusValue(),
         maxSpeed: "normal",
         initSpeed: "normal",
         keep: true,
@@ -51,7 +50,6 @@ export default function TextSphere() {
   return (
     <>
       <div className="text-sphere">
-        {/* span tag className must be "tagcloud"  */}
         <span className="tagcloud"></span>
       </div>
     </>
