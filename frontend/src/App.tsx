@@ -2,7 +2,7 @@ import "./App.css";
 import SpecialThanks from "./components/SpecialThanks/SpecialThanks";
 import { Container } from "@mui/material";
 import NavBar from "./navbar/NavBar";
-import EPAWorld from "./components/EPA World/EPAWorld";
+import EPAWorld from "./components/EPAWorld/EPAWorld";
 import Next from "./components/Next/Next";
 import Overview from "./components/Overview/Overview";
 import Challenges from "./components/Challenges/Challenges";

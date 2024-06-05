@@ -5,6 +5,8 @@ export default function Next() {
             <em><h3>Continuous Learning and Growth</h3></em>
             <p>Azure</p>
             <p>Docker</p>
+            <p>AI</p>
+            <p>CSS</p>
 
             <em><h3>But wait, there's more!</h3></em>
             <p>Now that I have a better understanding of programming</p>
