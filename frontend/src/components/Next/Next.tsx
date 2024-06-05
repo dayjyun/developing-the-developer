@@ -1,6 +1,8 @@
+import "./Next.css"
+
 export default function Next() {
     return (
-        <>
+        <div className="next">
             <h2>What's Next?</h2>
             <em><h3>Continuous Learning and Growth</h3></em>
             <p>Azure</p>
@@ -21,6 +23,6 @@ export default function Next() {
                 <li>Master the best practices</li>
                 <li>DSA</li>
             </ul>
-        </>
+        </div>
     )
 }
