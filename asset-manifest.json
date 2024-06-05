@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/developing-the-developer/static/css/main.4c13f6ec.css",
-    "main.js": "/developing-the-developer/static/js/main.9583d610.js",
+    "main.css": "/developing-the-developer/static/css/main.eaedd642.css",
+    "main.js": "/developing-the-developer/static/js/main.048f28dd.js",
     "static/js/453.d855a71b.chunk.js": "/developing-the-developer/static/js/453.d855a71b.chunk.js",
     "index.html": "/developing-the-developer/index.html",
-    "main.4c13f6ec.css.map": "/developing-the-developer/static/css/main.4c13f6ec.css.map",
-    "main.9583d610.js.map": "/developing-the-developer/static/js/main.9583d610.js.map",
+    "main.eaedd642.css.map": "/developing-the-developer/static/css/main.eaedd642.css.map",
+    "main.048f28dd.js.map": "/developing-the-developer/static/js/main.048f28dd.js.map",
     "453.d855a71b.chunk.js.map": "/developing-the-developer/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c13f6ec.css",
-    "static/js/main.9583d610.js"
+    "static/css/main.eaedd642.css",
+    "static/js/main.048f28dd.js"
   ]
 }
