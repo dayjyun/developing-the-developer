@@ -1,31 +1,12 @@
 import { useEffect } from "react";
 import './TextSphere.css'
 import TagCloud from "TagCloud";
-// import TagCloud from "TagCloud";
+import { cvsWordArr } from "./TextSphereWords";
 
 export default function TextSphere() {
   useEffect(() => {
     return () => {
       let radii;
-      const texts = [
-        "APM",
-        "DevEco",
-        "EPA",
-        "ExpressCloud",
-        "FastLane",
-        "FlyWay",
-        "FreeMarker",
-        "ITPM",
-        "ITPR",
-        "Intake",
-        "Lombok",
-        "SDE",
-        "ServiceNow",
-        "Splunk",
-        "Spoke",
-        "TerraForm",
-        "WebFlux",
-      ];
 
       function radiusValue() {
         if (window.screen.width <= 778) {
@@ -43,7 +24,7 @@ export default function TextSphere() {
         keep: true,
       };
 
-      TagCloud('.tagcloud', texts, options);
+      TagCloud(".tagcloud", cvsWordArr, options);
     };
   }, []);
 

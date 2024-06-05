@@ -1,4 +1,4 @@
-import "./Introduction.css"
+import "./Introduction.scss"
 
 export default function Introduction() {
     return (
