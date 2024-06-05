@@ -1,0 +1,16 @@
+.introduction {
+    /* outline: 2px solid red; */
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h3 {
+    font-size: 60px;
+}
