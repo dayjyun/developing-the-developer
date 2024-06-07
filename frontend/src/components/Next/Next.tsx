@@ -1,4 +1,4 @@
-import "./Next.css"
+import "./Next.scss"
 
 export default function Next() {
     return (

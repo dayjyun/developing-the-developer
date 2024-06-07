@@ -7,12 +7,14 @@ import Next from "./components/Next/Next";
 import Overview from "./components/Overview/Overview";
 import Challenges from "./components/Challenges/Challenges";
 import Introduction from "./components/Introduction/Introduction";
+import Background from "./components/Background/Background";
 function App() {
   return (
     <div>
       <NavBar />
       <Container sx={{ minWidth: 320, paddingBottom: 10 }}>
         <div id="introduction"><Introduction /></div>
+        <div id="background"><Background /></div>
         <div id="epa-world"><EPAWorld /></div>
         <div id="overview"><Overview /></div>
         <div id="challenges"><Challenges /></div>

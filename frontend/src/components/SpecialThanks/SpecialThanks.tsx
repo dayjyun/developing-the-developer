@@ -1,5 +1,5 @@
 import engineers from './Engineers.json'
-import "./SpecialThanks.css"
+import "./SpecialThanks.scss"
 
 export default function SpecialThanks() {
     return (
