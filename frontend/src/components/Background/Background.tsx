@@ -8,6 +8,10 @@ import {
   TableRow,
 } from "@mui/material";
 import "./Background.scss";
+import chaseLogo from "../../assets/images/chase_logo_long.jpg";
+import appAcademyLogo from "../../assets/images/app_academy_logo_long.png";
+import interaptLogo from "../../assets/images/interapt_logo_long.jpg";
+import generalAssemblyLogo from "../../assets/images/general_assembly_logo_long.webp";
 
 export default function Background() {
   return (
@@ -19,7 +23,7 @@ export default function Background() {
             <TableRow>
               <TableCell colSpan={5} style={{ textAlign: "center" }}>
                 <img
-                  src="../../assets/images/chase_logo_long.jpg"
+                  src={chaseLogo}
                   alt="Chase Logo"
                 />
               </TableCell>
@@ -46,7 +50,7 @@ export default function Background() {
             <TableRow>
               <TableCell colSpan={5} style={{ textAlign: "center" }}>
                 <img
-                  src="../../assets/images/app_academy_logo_long.png"
+                  src={appAcademyLogo}
                   alt="App Academy Logo"
                 />
               </TableCell>
@@ -68,16 +72,16 @@ export default function Background() {
               </TableCell>
             </TableRow>
           </TableBody>
-          
+
           <TableHead>
             <TableRow>
               <TableCell colSpan={5} style={{ textAlign: "center" }}>
                 <img
-                  src="../../assets/images/interapt_logo_long.jpg"
+                  src={interaptLogo}
                   alt="Interapt Logo"
                 />
                 <img
-                  src="../../assets/images/general_assembly_logo_long.webp"
+                  src={generalAssemblyLogo}
                   alt="General Assembly Logo"
                 />
               </TableCell>
