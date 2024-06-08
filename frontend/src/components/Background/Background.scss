@@ -2,5 +2,24 @@
   outline: 2px solid red;
   border-top: 0.5px solid rgb(173, 173, 173);
   min-height: 1000px;
+  height: 93vh;
   padding: 50px;
+
+  table {
+    outline: 2px solid yellow;
+    width: 100%;
+    }
+    th {
+      padding: 10px 0;
+      height: 80px;
+    }
+
+    td {
+      background-color: rgb(235, 238, 252);
+    }
+}
+
+img {
+  height: 100px;
+  width: 100px;
 }
