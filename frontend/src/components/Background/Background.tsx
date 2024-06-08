@@ -8,16 +8,16 @@ import {
   TableRow,
 } from "@mui/material";
 import "./Background.scss";
-import chaseLogo from "../../assets/images/chase_logo_long.jpg";
+import chaseLogo from "../../assets/images/chase_logo_long_transparent.png";
 import appAcademyLogo from "../../assets/images/app_academy_logo_long.png";
-import interaptLogo from "../../assets/images/interapt_logo_long.jpg";
+import interaptLogo from "../../assets/images/interapt_logo_long.webp";
 import generalAssemblyLogo from "../../assets/images/general_assembly_logo_long.webp";
 
 export default function Background() {
   return (
     <div className="background">
       <h2>Background</h2>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} className="table-container">
         <Table>
           <TableHead>
             <TableRow>
@@ -25,6 +25,7 @@ export default function Background() {
                 <img
                   src={chaseLogo}
                   alt="Chase Logo"
+                  className="chase-logo"
                 />
               </TableCell>
             </TableRow>
@@ -52,6 +53,7 @@ export default function Background() {
                 <img
                   src={appAcademyLogo}
                   alt="App Academy Logo"
+                  className="app-academy-logo"
                 />
               </TableCell>
             </TableRow>

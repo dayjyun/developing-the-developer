@@ -4,8 +4,11 @@
   // height: 93vh;
   padding: 50px;
 
+  .table-container {
+    padding: 30px 0;
+  }
+
   table {
-    outline: 2px solid yellow;
     width: 100%;
     }
     th {
@@ -23,4 +26,5 @@ img {
   // width: 100px;
   max-height: 100%;
   max-width: 100%;
+  object-fit: cover;
 }
