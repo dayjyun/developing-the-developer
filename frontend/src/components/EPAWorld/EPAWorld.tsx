@@ -1,15 +1,20 @@
 import TextSphere from "./TextSphere/TextSphere"
-import "./EPAWorld.css"
+import "./EPAWorld.scss"
 
 export default function EPAWorld() {
     return(
         <div className="epa-world">
             <h2>EPA World</h2>
+            <h3>Software Development Enterprise</h3>
             <TextSphere />
-            <p>Goal is to automate and accelerate requests that are commonly sent to Service Now</p>
-            <p>Main objective</p>
-            <p>- Cut down processing time</p>
-            <p>- Automation</p>
+            <div className="text-area">
+                <p>SDE's mission is to automate and accelerate requests that are commonly channeled through Service Now</p>
+
+                <ul>
+                    <li>Cut down processing time</li>
+                    <li>Automation</li>
+                </ul>
+            </div>
 
 
             <p>Through digging around, I found resources</p>
