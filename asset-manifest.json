@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/developing-the-developer/static/css/main.819309d9.css",
-    "main.js": "/developing-the-developer/static/js/main.d93a3d9c.js",
+    "main.css": "/developing-the-developer/static/css/main.ac4ef234.css",
+    "main.js": "/developing-the-developer/static/js/main.0e959d06.js",
     "static/js/453.d855a71b.chunk.js": "/developing-the-developer/static/js/453.d855a71b.chunk.js",
     "static/media/sde-logo.png": "/developing-the-developer/static/media/sde-logo.d2f32632b834e27fd103.png",
     "static/media/app_academy_logo_long.png": "/developing-the-developer/static/media/app_academy_logo_long.f4ed18ed51d8c6dad91d.png",
@@ -9,12 +9,12 @@
     "static/media/general_assembly_logo_long.webp": "/developing-the-developer/static/media/general_assembly_logo_long.45d9243f071bd42ab93a.webp",
     "static/media/interapt_logo_long.webp": "/developing-the-developer/static/media/interapt_logo_long.08bc412ea5176084fb06.webp",
     "index.html": "/developing-the-developer/index.html",
-    "main.819309d9.css.map": "/developing-the-developer/static/css/main.819309d9.css.map",
-    "main.d93a3d9c.js.map": "/developing-the-developer/static/js/main.d93a3d9c.js.map",
+    "main.ac4ef234.css.map": "/developing-the-developer/static/css/main.ac4ef234.css.map",
+    "main.0e959d06.js.map": "/developing-the-developer/static/js/main.0e959d06.js.map",
     "453.d855a71b.chunk.js.map": "/developing-the-developer/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.819309d9.css",
-    "static/js/main.d93a3d9c.js"
+    "static/css/main.ac4ef234.css",
+    "static/js/main.0e959d06.js"
   ]
 }
