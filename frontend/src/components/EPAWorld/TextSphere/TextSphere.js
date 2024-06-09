@@ -12,7 +12,7 @@ export default function TextSphere() {
         if (window.screen.width <= 778) {
           radii = 150;
         } else {
-          radii = 200;
+          radii = 220;
         }
         return radii;
       }

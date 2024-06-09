@@ -33,7 +33,7 @@ export default function Background() {
           <TableBody>
             <TableRow>
               <TableCell style={{ textAlign: "center" }}>
-                Teller -{">"} banker
+                Teller -{">"} Banker
               </TableCell>
               <TableCell style={{ textAlign: "center" }}>
                 Small Business Specialist
