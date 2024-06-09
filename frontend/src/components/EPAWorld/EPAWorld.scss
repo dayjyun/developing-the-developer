@@ -4,20 +4,25 @@
   min-height: 1000px;
 
   .text-area {
-    margin: 40px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    // border: 2px solid red;
     text-align: center;
   }
 
+  .sde-logo-container {
+    text-align: center;
+  }
+
+  img {
+    height: 110px;
+  }
+
   ul {
-    // padding: 0 200px;
     display: flex;
     gap: 50px;
-    // margin: 0 30px;
     li {
       padding: 2px 0;
       text-align: left;

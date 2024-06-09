@@ -1,5 +1,6 @@
 export const cvsWordArr = [
   "APM",
+  "Backstage",
   "DevEco",
   "EPA",
   "Enterprise",
@@ -12,7 +13,8 @@ export const cvsWordArr = [
   "Intake",
   "Lombok",
   "SDE",
-  "Service Now",
+  "ServiceNow",
+  "SNAPII",
   "Splunk",
   "Spoke",
   "TerraForm",

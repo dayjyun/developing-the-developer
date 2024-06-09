@@ -1,19 +1,36 @@
 import TextSphere from "./TextSphere/TextSphere"
 import "./EPAWorld.scss"
+import sdeLogo from "../../assets/images/sde-logo.png";
 
 export default function EPAWorld() {
-    return(
-        <div className="epa-world">
-            <h2>EPA World</h2>
-            <h3>Software Development Enterprise</h3>
-            <TextSphere />
-            <div className="text-area">
-                <p>SDE's mission is to automate and accelerate requests that are commonly channeled through Service Now</p>
-                <ul>
-                    <li>Cut down processing time</li>
-                    <li>Automation</li>
-                </ul>
-            </div>
+    return (
+      <div className="epa-world">
+        <h2>EPA World</h2>
+        <div className="sde-logo-container">
+          <img src={sdeLogo} alt="SDE logo" className="sde-logo" />
         </div>
-    )
+        <TextSphere />
+        <div className="text-area">
+          <p>
+            SDE's mission is to automate and accelerate requests that are
+            commonly channeled through ServiceNow
+          </p>
+          <ul>
+            <li>Cut down processing time</li>
+            <li>Automation</li>
+          </ul>
+          <br />
+          <p>
+            The goal is to improve developers' lives and create a rich internal
+            open-source community for sharing and improving reusable code and
+            solutions.
+          </p>
+          <p>
+            Building a developer platform will simplify and consolidate the developer
+            experience by enabling self-service access to all developer tools
+            and automated services.
+          </p>
+        </div>
+      </div>
+    );
 }
