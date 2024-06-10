@@ -25,7 +25,7 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
   open?: boolean;
 }>(({ theme, open }) => ({
   flexGrow: 1,
-  // padding: theme.spacing(1),
+  padding: theme.spacing(1),
   transition: theme.transitions.create('margin', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
@@ -127,14 +127,18 @@ export default function NavBar() {
         <List>
           {[
             "Introduction",
-            "CVS - EPA",
+            "Background",
+            "EPA World",
             "Overview",
             "Challenges",
-            "What's Next?",
+            "Coding and Beyond",
             "Special Thanks",
           ].map((text, index) => (
             <ListItem key={text} disablePadding>
-              <ListItemButton>
+              <ListItemButton
+                component="a"
+                href={`#${text.replace(/\s+/g, "-").toLowerCase()}`}
+              >
                 <ListItemIcon>
                   {index % 2 === 0 ? <InboxIcon /> : <PublicIcon />}
                 </ListItemIcon>

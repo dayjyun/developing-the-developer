@@ -11,14 +11,16 @@ import Background from "./components/Background/Background";
 function App() {
   return (
     <div>
-      <NavBar />
-      <Container sx={{ minWidth: 320, paddingBottom: 10 }}>
+      <div >
+        <NavBar />
+      </div>
+      <Container sx={{ minWidth: 320 }}>
         <div id="introduction"><Introduction /></div>
         <div id="background"><Background /></div>
         <div id="epa-world"><EPAWorld /></div>
         <div id="overview"><Overview /></div>
         <div id="challenges"><Challenges /></div>
-        <div id="next"><Next /></div>
+        <div id="coding-and-beyond"><Next /></div>
         <div id="special-thanks"><SpecialThanks /></div>
       </Container>
     </div>

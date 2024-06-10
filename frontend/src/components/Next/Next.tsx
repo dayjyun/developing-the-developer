@@ -3,7 +3,7 @@ import "./Next.scss"
 export default function Next() {
     return (
         <div className="next">
-            <h2>What's Next?</h2>
+            <h2>Coding and Beyond</h2>
             <em><h3>Continuous Learning and Growth</h3></em>
             <p>Azure</p>
             <p>Docker</p>

@@ -20,16 +20,18 @@ export default function EPAWorld() {
             <li>Automation</li>
           </ul>
           <br />
-          <p>
-            The goal is to improve developers' lives and create a rich internal
-            open-source community for sharing and improving reusable code and
-            solutions.
-          </p>
-          <p>
-            Building a developer platform will simplify and consolidate the developer
-            experience by enabling self-service access to all developer tools
-            and automated services.
-          </p>
+          <div style={{display: "flex", width: "75%", gap: "30px"}}>
+              <p>
+                The goal is to improve developers' lives and create a rich internal
+                open-source community for sharing and improving reusable code and
+                solutions.
+              </p>
+              <p>
+                Building a developer platform will simplify and consolidate the developer
+                experience by enabling self-service access to all developer tools
+                and automated services.
+              </p>
+          </div>
         </div>
       </div>
     );
