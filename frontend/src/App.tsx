@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import SpecialThanks from "./components/SpecialThanks/SpecialThanks";
 import { Container} from "@mui/material";
 import NavBar from "./navbar/NavBar";

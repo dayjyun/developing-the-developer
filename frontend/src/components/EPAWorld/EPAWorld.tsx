@@ -7,6 +7,7 @@ export default function EPAWorld() {
     return (
       <div className="epa-world">
         <Typography variant="h2">EPA World</Typography>
+        <br />
         <div className="sde-logo-container">
           <img src={sdeLogo} alt="SDE logo" className="sde-logo" />
         </div>

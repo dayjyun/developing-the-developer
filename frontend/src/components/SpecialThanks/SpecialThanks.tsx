@@ -2,11 +2,16 @@ import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import teamMembers from "./Engineers.json";
 import "./SpecialThanks.scss";
+import mario from "../../assets/images/mario.png"
+import luigi from "../../assets/images/luigi.png"
+import toad from "../../assets/images/toad.png"
+import banana from "../../assets/images/mk-banana.png"
 
 export default function SpecialThanks() {
   return (
     <div className="special-thanks">
       <Typography variant="h2">Special Thanks</Typography>
+      <br />
       <Typography variant="h3">
         Everyone's kindness, openness, laughter, and welcoming environment!
       </Typography>
@@ -14,6 +19,11 @@ export default function SpecialThanks() {
       <br />
       <Grid container spacing={2}>
         <Grid item xs={4}>
+          <div
+            className="logo"
+            title="Mario"
+            style={{ backgroundImage: `url(${mario})` }}
+          ></div>
           <Typography variant="body1">
             <strong>Engineers</strong>
           </Typography>
@@ -24,6 +34,11 @@ export default function SpecialThanks() {
           ))}
         </Grid>
         <Grid item xs={4}>
+          <div
+            className="logo"
+            title="Luigi"
+            style={{ backgroundImage: `url(${luigi})` }}
+          ></div>
           <Typography variant="body1">
             <strong>PMs</strong>
           </Typography>
@@ -33,6 +48,12 @@ export default function SpecialThanks() {
             </div>
           ))}
           <br />
+
+          <div
+            className="logo"
+            title="Toad"
+            style={{ backgroundImage: `url(${toad})` }}
+          ></div>
           <Typography variant="body1">
             <strong>Designers</strong>
           </Typography>
@@ -43,8 +64,13 @@ export default function SpecialThanks() {
           ))}
         </Grid>
         <Grid item xs={4}>
+          <div
+            className="logo"
+            title="Banana"
+            style={{ backgroundImage: `url(${banana})` }}
+          ></div>
           <Typography variant="body1">
-            <strong>Supportive Members</strong>
+            <strong>Honorable Mentions</strong>
           </Typography>
           {teamMembers.other.map((member, i) => (
             <div key={`${member.firstName} ${i}`}>
