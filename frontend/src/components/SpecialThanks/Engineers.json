@@ -1,42 +1,66 @@
-[
+{
+  "engineers": [
     {
-        "firstName": "Derek",
-        "lastName": "Ebeling"
+      "firstName": "Gurpreet",
+      "lastName": "Saini"
     },
     {
-        "firstName": "Laksmi",
-        "lastName": "Narayana Peela"
+      "firstName": "Derek",
+      "lastName": "Ebeling"
     },
     {
-        "firstName": "Swapan",
-        "lastName": "Dey"
+      "firstName": "Laksmi",
+      "lastName": "Narayana Peela"
     },
     {
-        "firstName": "Sadriddin",
-        "lastName": "Norkobilov"
+      "firstName": "Swapan",
+      "lastName": "Dey"
     },
     {
-        "firstName": "Terry 'Trip'",
-        "lastName": "Trippany"
+      "firstName": "Sadriddin",
+      "lastName": "Norkobilov"
     },
     {
-        "firstName": "Sean",
-        "lastName": "Taylor"
+      "firstName": "Terry 'Trip'",
+      "lastName": "Trippany"
     },
     {
-        "firstName": "Daniel",
-        "lastName": "Managlia"
+      "firstName": "Sean",
+      "lastName": "Taylor"
     },
     {
-        "firstName": "Dipesh",
-        "lastName": "Patel"
+      "firstName": "Daniel",
+      "lastName": "Managlia"
     },
     {
-        "firstName": "Kenneth",
-        "lastName": "Liu"
+      "firstName": "Dipesh",
+      "lastName": "Patel"
     },
     {
-        "firstName": "Yogesh",
-        "lastName": "Pinninti"
+      "firstName": "Kenneth",
+      "lastName": "Liu"
+    },
+    {
+      "firstName": "Yogesh",
+      "lastName": "Pinninti"
     }
-]
+  ],
+
+  "pms": [
+    { "firstName": "David", "lastName": "Villegas" },
+    { "firstName": "Zainab", "lastName": "Salahudin" }
+  ],
+  "designers": [
+    { "firstName": "Warwick", "lastName": "DeKock" },
+    { "firstName": "Elana", "lastName": "Pentelnik" },
+    { "firstName": "Chandra", "lastName": "Lash" },
+    { "firstName": "Stephen", "lastName": "McCarthy" },
+    { "firstName": "Jonathan", "lastName": "Ifranco" },
+    { "firstName": "John", "lastName": "Hensley" }
+  ],
+  "other": [
+    { "firstName": "Kieran", "lastName": "Milligan" },
+    { "firstName": "Michael", "lastName": "Wydra" },
+    { "firstName": "Paul", "lastName": "Smith " }
+  ]
+}

@@ -1,14 +1,15 @@
+import { Typography } from "@mui/material";
 import "./Overview.scss";
 
 export default function Overview() {
   return (
     <div className="overview">
-      <h2>Overview</h2>
-      <h3>
+      <Typography variant="h2">Overview</Typography>
+      <Typography variant="h3">
         <em>
           SDE <s>Portal</s> Platform
         </em>
-      </h3>
+      </Typography>
       <p className="release-date">Released November 17, 2023</p>
       <br />
       <p className="description">
@@ -19,7 +20,7 @@ export default function Overview() {
       <br />
 
       <div className="tech-info">
-        <h3>Technologies</h3>
+        <Typography variant="h3">Technologies</Typography>
         <p>AKS Cloud environment</p>
         <p>Postgres database</p>
         <p>Java and Angular accelerators</p>
@@ -27,7 +28,7 @@ export default function Overview() {
       </div>
       <br />
       <div className="upgrades">
-        <h3>Upgrades</h3>
+        <Typography variant="h3">Upgrades</Typography>
         <p>Angular to React</p>
         <p>Spotify Backstage</p>
       </div>

@@ -1,11 +1,12 @@
 import TextSphere from "./TextSphere/TextSphere"
 import "./EPAWorld.scss"
 import sdeLogo from "../../assets/images/sde-logo.png";
+import { Typography } from "@mui/material";
 
 export default function EPAWorld() {
     return (
       <div className="epa-world">
-        <h2>EPA World</h2>
+        <Typography variant="h2">EPA World</Typography>
         <div className="sde-logo-container">
           <img src={sdeLogo} alt="SDE logo" className="sde-logo" />
         </div>

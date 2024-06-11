@@ -6,6 +6,7 @@ import {
   TableContainer,
   TableHead,
   TableRow,
+  Typography,
 } from "@mui/material";
 import "./Background.scss";
 import chaseLogo from "../../assets/images/chase_logo_long_transparent.png";
@@ -16,7 +17,7 @@ import generalAssemblyLogo from "../../assets/images/general_assembly_logo_long.
 export default function Background() {
   return (
     <div className="background">
-      <h2>Background</h2>
+      <Typography variant="h2">Background</Typography>
       <TableContainer component={Paper} className="table-container">
         <Table>
           <TableHead>
