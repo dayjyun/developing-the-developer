@@ -1,13 +1,13 @@
 import "./App.scss";
-import SpecialThanks from "./components/SpecialThanks/SpecialThanks";
+import SpecialThanks from "./components/7 - SpecialThanks/SpecialThanks";
 import { Container} from "@mui/material";
 import NavBar from "./navbar/NavBar";
-import EPAWorld from "./components/EPAWorld/EPAWorld";
-import Next from "./components/Next/Next";
-import Overview from "./components/Overview/Overview";
-import Challenges from "./components/Challenges/Challenges";
-import Introduction from "./components/Introduction/Introduction";
-import Background from "./components/Background/Background";
+import EPAWorld from "./components/3 - EPAWorld/EPAWorld";
+import Beyond from "./components/6 - Beyond/Beyond";
+import Platform from "./components/4 - Platform/Platform";
+import Experience from "./components/5 - Experience/Experience";
+import Introduction from "./components/1 - Introduction/Introduction";
+import Background from "./components/2 - Background/Background";
 function App() {
   return (
     <div>
@@ -18,9 +18,9 @@ function App() {
         <div id="introduction"><Introduction /></div>
         <div id="background"><Background /></div>
         <div id="epa-world"><EPAWorld /></div>
-        <div id="overview"><Overview /></div>
-        <div id="challenges"><Challenges /></div>
-        <div id="coding-and-beyond"><Next /></div>
+        <div id="sde-platform"><Platform /></div>
+        <div id="experience"><Experience /></div>
+        <div id="coding-and-beyond"><Beyond /></div>
         <div id="special-thanks"><SpecialThanks /></div>
       </Container>
     </div>

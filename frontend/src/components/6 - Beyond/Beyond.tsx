@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import "./Next.scss";
+import "./Beyond.scss";
 import dockerLogo from "../../assets/images/docker-logo.png";
 import azureLogo from "../../assets/images/azure-logo.png";
 import css3Logo from "../../assets/images/css3-logo.png";
@@ -7,15 +7,13 @@ import sdeIcon from "../../assets/images/sde-icon.jpg";
 import reactLogo from "../../assets/images/react-logo_black-text.jpg";
 import backstageLogo from "../../assets/images/backstage-icon.png";
 
-export default function Next() {
+export default function Beyond() {
   return (
-    <div className="next">
+    <div className="beyond">
       <Typography variant="h2">Coding and Beyond</Typography>
       <br />
-
-      <em>
-        <Typography variant="h4">Continuous Learning and Growth</Typography>
-      </em>
+      <br />
+      <Typography variant="h4">Continuous Learning and Growth</Typography>
       <br />
 
       <div className="logo-container">
@@ -45,11 +43,6 @@ export default function Next() {
         <div className="logo-container">
           <div
             className="logo"
-            title="CSS3"
-            style={{ backgroundImage: `url(${css3Logo})` }}
-          ></div>
-          <div
-            className="logo"
             title="React"
             style={{
               backgroundImage: `url(${reactLogo})`,
@@ -61,15 +54,18 @@ export default function Next() {
             title="Backstage"
             style={{ backgroundImage: `url(${backstageLogo})` }}
           ></div>
+          <div
+            className="logo"
+            title="CSS3"
+            style={{ backgroundImage: `url(${css3Logo})` }}
+          ></div>
         </div>
       </div>
       <br />
       <br />
       <br />
 
-      <em>
-        <Typography variant="h4">Engineering In Mind</Typography>
-      </em>
+      <Typography variant="h4">Engineering In Mind</Typography>
 
       <br />
       <p>Bachelor's degree in CS</p>

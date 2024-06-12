@@ -3,6 +3,16 @@
   padding: 80px;
   height: 94vh;
 
+  .epa-world-header {
+    display: flex;
+    align-items: center;
+
+    .plus-icon {
+      color: black;
+      padding: 0 10px 0 20px;
+    }
+  }
+
   .text-area {
     margin: 20px;
     display: flex;
@@ -16,8 +26,9 @@
     text-align: center;
   }
 
-  img {
-    height: 110px;
+  .sde-logo {
+    height: 58px;
+    top: 20px;
   }
 
   ul {

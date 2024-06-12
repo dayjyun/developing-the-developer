@@ -129,8 +129,8 @@ export default function NavBar() {
             "Introduction",
             "Background",
             "EPA World",
-            "Overview",
-            "Challenges",
+            "SDE Platform",
+            "Experience",
             "Coding and Beyond",
             "Special Thanks",
           ].map((text, index) => (

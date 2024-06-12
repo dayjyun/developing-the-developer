@@ -1,20 +1,25 @@
 import { Typography } from "@mui/material";
-import "./Overview.scss";
+import "./Platform.scss";
 import aksLogo from "../../assets/images/aks-logo.png"
 import postgresLogo from "../../assets/images/postgres-logo.jpg"
 import javaLogo from "../../assets/images/java-logo.png"
 import angularLogo from "../../assets/images/angular-logo.png"
 import githubLogo from "../../assets/images/github-logo.jpg"
 
-export default function Overview() {
+export default function Platform() {
   return (
-    <div className="overview">
+    <div className="platform">
       <Typography variant="h2">
-        <em>SDE <s>Portal</s> Platform</em>
+        SDE{" "}
+        <s>
+          <em>Portal</em>
+        </s>{" "}
+        Platform
       </Typography>
       <p className="release-date">Released November 17, 2023</p>
-      <br />
-      <p className="description">Single-paged, user-friendly interface; backed by user testing</p>
+      <p className="description">
+        Single-paged, user-friendly interface; backed by user testing
+      </p>
       <p className="description">Reduced sections from 120+ to ~20</p>
       <p className="description">Faster processing time: 14 weeks to 2 weeks</p>
       <br />
@@ -27,7 +32,11 @@ export default function Overview() {
           <div
             className="logo"
             title="Azure Kubernetes Service"
-            style={{ backgroundImage: `url(${aksLogo})`, transform: "scale(1.8)", margin: "8px 0" }}
+            style={{
+              backgroundImage: `url(${aksLogo})`,
+              transform: "scale(1.8)",
+              margin: "8px 0",
+            }}
           ></div>
           <div
             className="logo"
@@ -42,7 +51,7 @@ export default function Overview() {
           <div
             className="logo"
             title="Angular"
-            style={{ backgroundImage: `url(${angularLogo})` }}
+            style={{ backgroundImage: `url(${angularLogo})`, transform: "scale(1.4)" }}
           ></div>
           <div
             className="logo"
@@ -59,7 +68,6 @@ export default function Overview() {
         <p>Dashboard</p>
         <p>Cypress</p>
       </div>
-
     </div>
   );
 }
