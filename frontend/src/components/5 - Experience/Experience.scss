@@ -4,8 +4,12 @@
   padding: 80px;
   height: 94vh;
 
-  .experience-top {
+  .experience-top, .experience-bottom {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .experience-bottom {
+
   }
 }

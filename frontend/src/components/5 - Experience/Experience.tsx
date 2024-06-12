@@ -25,31 +25,40 @@ export default function Experience() {
           <div>
             <Typography variant="h4">Reverse Engineer</Typography>
             <p>Object Oriented Programming</p>
-            <p>Callback Functions</p>
+            <p>Callback functions</p>
             <p>Patience</p>
+            <p>Reading efficiency</p>
           </div>
         </div>
         <br />
-        <Typography variant="h4">Challenges</Typography>
-        Trying to understand what we were creating
-        <ul>
-          <li>Who needs it?</li>
-          <li>What do they need?</li>
-          <li>Why do they need it?</li>
-          <li>What problem are we solving?</li>
-          <li>Why is it important?</li>
-          <li>What should the experience be like?</li>
-        </ul>
-        <br />
-        <p>Couldn't share experience with peers</p>
-        <p>Some questions I wanted to ask were unique</p>
-        <br />
-        <Typography variant="h4">Start from discovery</Typography>
-        <p>
-          I would have liked to have been in the discovery stage to gain
-          insights into CVS and EPA, understand the team, objectives, acronyms,
-          vision, blockers, and expectations.
-        </p>
+
+        <div className="experience-bottom">
+          <ul>
+          <Typography variant="h4">Challenges</Typography>
+
+            <li>Who needs it?</li>
+            <li>What do they need?</li>
+            <li>Why do they need it?</li>
+            <li>What problem are we solving?</li>
+            <li>Why is it important?</li>
+            <li>What should the experience be like?</li>
+          </ul>
+          <br />
+          {/* <p>Couldn't share experience with peers</p>
+          <p>Some questions I wanted to ask were unique</p> */}
+          <br />
+          <ul>
+          <Typography variant="h4">Discovery</Typography>
+            <li>Insights about EPA</li>
+            <li>Get to know the team</li>
+            <li>Objectives</li>
+            <li>Expectation</li>
+            <li>Blockers</li>
+            <li>Vision</li>
+          </ul>
+          <p>
+          </p>
+        </div>
       </div>
     );
 }

@@ -66,25 +66,33 @@ export default function Beyond() {
       <br />
 
       <Typography variant="h4">Engineering In Mind</Typography>
-
       <br />
-      <p>Bachelor's degree in CS</p>
+      <div className="engineering-in-mind">
+        <div>
+          <p>Bachelor's degree in CS</p>
+          <p>Participate in hackathons</p>
+          <p>Contribute to open-source projects</p>
+          <p>Mentorship</p>
+        </div>
+        <div>
+          <p>Refactor and improve</p>
+          <ul>
+            <li>Backend</li>
+            <li>Frontend</li>
+            <li>Testing</li>
+          </ul>
+        </div>
+        <br />
+        <div>
+          <p>Increase speed</p>
+          <p>Increase knowledge</p>
+          <p>Increase confidence</p>
+          <br />
+        </div>
+      </div>
       <br />
 
-      <p>Refactor and improve previous projects </p>
-      <ul>
-        <li>Backend</li>
-        <li>Frontend</li>
-        <li>Testing</li>
-      </ul>
-      <br />
-
-      <p>Increase speed</p>
-      <p>Increase knowledge</p>
-      <p>Increase confidence</p>
-      <br />
-
-      <p>Master the best practices!</p>
+      <Typography variant="h5">Master Best Practices!</Typography>
     </div>
   );
 }
