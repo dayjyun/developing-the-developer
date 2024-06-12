@@ -44,9 +44,8 @@ export default function Experience() {
             <li>What should the experience be like?</li>
           </ul>
           <br />
-          {/* <p>Couldn't share experience with peers</p>
-          <p>Some questions I wanted to ask were unique</p> */}
           <br />
+          
           <ul>
           <Typography variant="h4">Discovery</Typography>
             <li>Insights about EPA</li>
