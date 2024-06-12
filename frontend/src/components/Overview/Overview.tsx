@@ -5,8 +5,6 @@ import postgresLogo from "../../assets/images/postgres-logo.jpg"
 import javaLogo from "../../assets/images/java-logo.png"
 import angularLogo from "../../assets/images/angular-logo.png"
 import githubLogo from "../../assets/images/github-logo.jpg"
-import reactLogo from "../../assets/images/react-logo.jpg"
-import backstageLogo from "../../assets/images/backstage-icon.png"
 
 export default function Overview() {
   return (
@@ -22,14 +20,14 @@ export default function Overview() {
       <br />
 
       <div className="tech-info">
-        <Typography variant="h3">Technologies</Typography>
+        <Typography variant="h4">Technologies</Typography>
         <br />
 
         <div className="logo-container">
           <div
             className="logo"
             title="Azure Kubernetes Service"
-            style={{ backgroundImage: `url(${aksLogo})` }}
+            style={{ backgroundImage: `url(${aksLogo})`, transform: "scale(1.8)", margin: "8px 0" }}
           ></div>
           <div
             className="logo"
@@ -55,23 +53,13 @@ export default function Overview() {
       </div>
       <br />
 
-      <div className="upgrades">
-        <Typography variant="h3">Upgrades</Typography>
-        <br />
-
-        <div className="logo-container">
-          <div
-            className="logo"
-            title="React"
-            style={{ backgroundImage: `url(${reactLogo})` }}
-          ></div>
-          <div
-            className="logo"
-            title="Backstage"
-            style={{ backgroundImage: `url(${backstageLogo})` }}
-          ></div>
-        </div>
+      <div className="contributions">
+        <Typography variant="h4">Contributions</Typography>
+        <p>Modal</p>
+        <p>Dashboard</p>
+        <p>Cypress</p>
       </div>
+
     </div>
   );
 }

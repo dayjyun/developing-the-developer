@@ -11,7 +11,7 @@ import {
 import "./Background.scss";
 import chaseLogo from "../../assets/images/chase_logo_long_transparent.png";
 import appAcademyLogo from "../../assets/images/app_academy_logo_long.png";
-import interaptLogo from "../../assets/images/interapt_logo_long.webp";
+import interaptLogo from "../../assets/images/interapt_logo.png";
 import generalAssemblyLogo from "../../assets/images/general_assembly_logo_long.webp";
 
 export default function Background() {

@@ -5,17 +5,25 @@ export default function Challenges() {
     return (
       <div className="challenges">
         <Typography variant="h2">Challenges</Typography>
-        <Typography variant="h4">Differences</Typography>
-        <p>Cucumber -{">"} Mockito</p>
-        <p>Maven -{">"} Gradle</p>
+        <div style={{ display: "flex" }}>
+          <div>
+          <Typography variant="h4">Differences</Typography>
+            <p>Cucumber -{">"} Mockito</p>
+            <p>Maven -{">"} Gradle</p>
+          </div>
+          
+
+          <div>
+            <Typography variant="h4">New</Typography>
+            <p>Azure</p>
+            <p>Figma</p>
+            <p>Code Coverage</p>
+            <p>Cypress</p>
+            <p>SonarQube</p>
+          </div>
+        </div>
         <br />
-        <Typography variant="h4">New</Typography>
-        <p>Azure</p>
-        <p>Figma</p>
-        <p>Code Coverage</p>
-        <p>Cypress</p>
-        <p>SonarQube</p>
-        <br />
+
         <Typography variant="h4">Challenges</Typography>
         Trying to understand what we were creating
         <ul>
