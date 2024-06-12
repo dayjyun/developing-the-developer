@@ -19,27 +19,11 @@ export default function SpecialThanks() {
       <br />
 
       <Grid container spacing={2}>
-        <Grid item xs={4}>
+        <Grid item xs={3}>
           <div
             className="logo"
             title="Mario"
             style={{ backgroundImage: `url(${mario})` }}
-          ></div>
-          <br />
-          <Typography variant="body1">
-            <strong>Engineers</strong>
-          </Typography>
-          {teamMembers.engineers.map((engineer, i) => (
-            <div key={`${engineer.firstName} ${i}`}>
-              {engineer.firstName} {engineer.lastName}
-            </div>
-          ))}
-        </Grid>
-        <Grid item xs={4}>
-          <div
-            className="logo"
-            title="Luigi"
-            style={{ backgroundImage: `url(${luigi})` }}
           ></div>
           <br />
           <Typography variant="body1">
@@ -51,25 +35,24 @@ export default function SpecialThanks() {
             </div>
           ))}
           <br />
-
+        </Grid>
+        <Grid item xs={3}>
           <div
             className="logo"
-            title="Banana"
-            style={{ backgroundImage: `url(${banana})` }}
+            title="Luigi"
+            style={{ backgroundImage: `url(${luigi})` }}
           ></div>
           <br />
-
           <Typography variant="body1">
-            <strong>Honorable Mentions</strong>
+            <strong>Engineers</strong>
           </Typography>
-          {teamMembers.other.map((member, i) => (
-            <div key={`${member.firstName} ${i}`}>
-              {member.firstName} {member.lastName}
+          {teamMembers.engineers.map((engineer, i) => (
+            <div key={`${engineer.firstName} ${i}`}>
+              {engineer.firstName} {engineer.lastName}
             </div>
           ))}
-
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={3}>
           <div
             className="logo"
             title="Toad"
@@ -82,6 +65,23 @@ export default function SpecialThanks() {
           {teamMembers.designers.map((designer, i) => (
             <div key={`${designer.firstName} ${i}`}>
               {designer.firstName} {designer.lastName}
+            </div>
+          ))}
+        </Grid>
+
+        <Grid>
+          <div
+            className="logo"
+            title="Banana"
+            style={{ backgroundImage: `url(${banana})` }}
+          ></div>
+          <br />
+          <Typography variant="body1">
+            <strong>Honorable Mentions</strong>
+          </Typography>
+          {teamMembers.other.map((member, i) => (
+            <div key={`${member.firstName} ${i}`}>
+              {member.firstName} {member.lastName}
             </div>
           ))}
         </Grid>
