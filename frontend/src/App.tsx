@@ -8,6 +8,8 @@ import Platform from "./components/4 - Platform/Platform";
 import Experience from "./components/5 - Experience/Experience";
 import Introduction from "./components/1 - Introduction/Introduction";
 import Background from "./components/2 - Background/Background";
+import Footer from "./components/999-Footer/Footer";
+
 function App() {
   return (
     <div>
@@ -23,6 +25,7 @@ function App() {
         <div id="coding-and-beyond"><Beyond /></div>
         <div id="special-thanks"><SpecialThanks /></div>
       </Container>
+      <Footer />
     </div>
   );
 }

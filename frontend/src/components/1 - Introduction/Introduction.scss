@@ -1,16 +1,11 @@
 .introduction {
     height: 94vh;
-    min-height: 900px;
-    padding-top: 10vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    padding-top: 2vh;
+    margin: 0 auto;
+    text-align: center;
 
     h1 {
-        font-size: 150px;
+        font-size: 120px;
     }
 
-    h3 {
-        font-size: 60px;
-    }
 }
