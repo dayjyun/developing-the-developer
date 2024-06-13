@@ -6,6 +6,7 @@ import mario from "../../assets/images/mario.png"
 import luigi from "../../assets/images/luigi.png"
 import toad from "../../assets/images/toad.png"
 import banana from "../../assets/images/mk-banana.png"
+import interaptLogo from "../../assets/images/interapt_logo.png";
 
 export default function SpecialThanks() {
   return (
@@ -69,7 +70,7 @@ export default function SpecialThanks() {
           ))}
         </Grid>
 
-        <Grid>
+        <Grid item xs={3}>
           <div
             className="logo"
             title="Banana"
@@ -86,6 +87,22 @@ export default function SpecialThanks() {
           ))}
         </Grid>
       </Grid>
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <div className="thanks-interapt">
+        <img
+          src={interaptLogo}
+          alt="Interapt Logo"
+          className="thanks-interapt-logo"
+        />
+        <br />
+        <br />
+        <p>Consistent support, devotion, and remarkable team.</p>
+        <p>Making a difference one engineer at a time.</p>
+      </div>
     </div>
   );
 }

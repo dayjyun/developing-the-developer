@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
     const footerStyle: React.CSSProperties = {
       textAlign: "center",
-      marginTop: "auto",
+      marginTop: "60px",
       bottom: "0",
       width: "100%",
       backgroundColor: "#2e2d2d",

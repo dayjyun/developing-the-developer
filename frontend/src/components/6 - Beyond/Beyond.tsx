@@ -64,6 +64,7 @@ export default function Beyond() {
       <br />
       <br />
       <br />
+      <br />
 
       <Typography variant="h4">Engineering In Mind</Typography>
       <br />
@@ -84,8 +85,8 @@ export default function Beyond() {
         </div>
         <br />
         <div>
-          <p>Increase speed</p>
           <p>Increase knowledge</p>
+          <p>Increase speed</p>
           <p>Increase confidence</p>
           <br />
         </div>
