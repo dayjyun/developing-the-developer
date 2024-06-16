@@ -2,6 +2,7 @@ import TextSphere from "./TextSphere/TextSphere";
 import "./EPAWorld.scss";
 import sdeLogo from "../../assets/images/sde-logo.png";
 import { Typography } from "@mui/material";
+import wordCloud from "../../assets/images/wc.png"
 
 export default function EPAWorld() {
   return (
@@ -16,7 +17,8 @@ export default function EPAWorld() {
       <br />
       <br />
 
-      <TextSphere />
+      {/* <TextSphere /> */}
+      <div className="word-cloud-container"><img src={wordCloud} alt="Word Cloud" className="epa-world-word-cloud" /></div>
       <br />
 
       <div className="text-area">
