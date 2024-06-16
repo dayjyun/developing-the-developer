@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/developing-the-developer/static/css/main.218ddc98.css",
+    "main.css": "/developing-the-developer/static/css/main.90ddb83d.css",
     "main.js": "/developing-the-developer/static/js/main.05e7e211.js",
     "static/js/453.d855a71b.chunk.js": "/developing-the-developer/static/js/453.d855a71b.chunk.js",
     "static/media/azure-logo.png": "/developing-the-developer/static/media/azure-logo.73df085136919074be9b.png",
@@ -27,12 +27,12 @@
     "static/media/github-logo.jpg": "/developing-the-developer/static/media/github-logo.92087b460a5ad97d0f2c.jpg",
     "static/media/general_assembly_logo_long.webp": "/developing-the-developer/static/media/general_assembly_logo_long.45d9243f071bd42ab93a.webp",
     "index.html": "/developing-the-developer/index.html",
-    "main.218ddc98.css.map": "/developing-the-developer/static/css/main.218ddc98.css.map",
+    "main.90ddb83d.css.map": "/developing-the-developer/static/css/main.90ddb83d.css.map",
     "main.05e7e211.js.map": "/developing-the-developer/static/js/main.05e7e211.js.map",
     "453.d855a71b.chunk.js.map": "/developing-the-developer/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.218ddc98.css",
+    "static/css/main.90ddb83d.css",
     "static/js/main.05e7e211.js"
   ]
 }
