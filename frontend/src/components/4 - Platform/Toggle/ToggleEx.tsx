@@ -38,7 +38,7 @@ export default function ToggleEx() {
   };
 
   return (
-    <Box sx={{ width: "50%", textAlign: "center", mt: 4 }}>
+    <Box sx={{ height: "213px", width: "50%", textAlign: "center", mt: 4 }}>
       <ToggleButtonGroup
         value={view}
         exclusive

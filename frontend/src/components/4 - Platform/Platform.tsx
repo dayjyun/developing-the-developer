@@ -66,6 +66,7 @@ export default function Platform() {
         </div>
       </div>
       <br />
+      <br />
 
       <div className="contributions">
         <Typography variant="h4">Contributions</Typography>
@@ -74,7 +75,7 @@ export default function Platform() {
           <div style={{ margin: "0 auto" }}>
             <ModalEx />
           </div>
-          <ToggleEx />
+            <ToggleEx />
         </div>
       </div>
     </div>
