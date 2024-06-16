@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/developing-the-developer/static/css/main.1122d483.css",
-    "main.js": "/developing-the-developer/static/js/main.a4ad7590.js",
+    "main.css": "/developing-the-developer/static/css/main.0386f039.css",
+    "main.js": "/developing-the-developer/static/js/main.6bccb703.js",
     "static/js/453.d855a71b.chunk.js": "/developing-the-developer/static/js/453.d855a71b.chunk.js",
     "static/media/azure-logo.png": "/developing-the-developer/static/media/azure-logo.73df085136919074be9b.png",
     "static/media/sde-icon-transparent.png": "/developing-the-developer/static/media/sde-icon-transparent.5bf1b4ec40108c538efb.png",
     "static/media/java-logo.png": "/developing-the-developer/static/media/java-logo.096b64bbce817699d535.png",
+    "static/media/wc.png": "/developing-the-developer/static/media/wc.f8ce54dd9d45a070f57f.png",
     "static/media/mario.png": "/developing-the-developer/static/media/mario.d5f1c878054ed1585c50.png",
     "static/media/luigi.png": "/developing-the-developer/static/media/luigi.233d97cc0bc7657f0252.png",
     "static/media/toad.png": "/developing-the-developer/static/media/toad.b1f805b53386dd1682b8.png",
@@ -26,12 +27,12 @@
     "static/media/github-logo.jpg": "/developing-the-developer/static/media/github-logo.92087b460a5ad97d0f2c.jpg",
     "static/media/general_assembly_logo_long.webp": "/developing-the-developer/static/media/general_assembly_logo_long.45d9243f071bd42ab93a.webp",
     "index.html": "/developing-the-developer/index.html",
-    "main.1122d483.css.map": "/developing-the-developer/static/css/main.1122d483.css.map",
-    "main.a4ad7590.js.map": "/developing-the-developer/static/js/main.a4ad7590.js.map",
+    "main.0386f039.css.map": "/developing-the-developer/static/css/main.0386f039.css.map",
+    "main.6bccb703.js.map": "/developing-the-developer/static/js/main.6bccb703.js.map",
     "453.d855a71b.chunk.js.map": "/developing-the-developer/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1122d483.css",
-    "static/js/main.a4ad7590.js"
+    "static/css/main.0386f039.css",
+    "static/js/main.6bccb703.js"
   ]
 }
