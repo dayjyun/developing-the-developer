@@ -5,7 +5,7 @@ import azureLogo from "../../assets/images/azure-logo.png";
 import css3Logo from "../../assets/images/css3-logo.png";
 import sdeIcon from "../../assets/images/sde-icon-transparent.png";
 import reactLogo from "../../assets/images/react-logo_black-text.jpg";
-import backstageLogo from "../../assets/images/backstage-icon.png";
+import backstageLogo from "../../assets/images/backstage-icon-white.png";
 
 export default function Beyond() {
   return (
