@@ -19,6 +19,13 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import PublicIcon from "@mui/icons-material/Public";
 
+import HomeIcon from "@mui/icons-material/Home";
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import KeyboardIcon from "@mui/icons-material/Keyboard";
+import PersonAddAltIcon from "@mui/icons-material/PersonAddAlt";
+import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAlt";
+
 const drawerWidth = 240;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
@@ -65,10 +72,19 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   padding: theme.spacing(0, 1),
-  // necessary for content to be below app bar
   ...theme.mixins.toolbar,
   justifyContent: 'flex-end',
 }));
+
+const sideNavIcons = [
+  <HomeIcon />,
+  <AccountBalanceIcon />,
+  <FavoriteBorderIcon />,
+  <PublicIcon />,
+  <KeyboardIcon />,
+  <PersonAddAltIcon />,
+  <SentimentSatisfiedAltIcon />,
+];
 
 export default function NavBar() {
   const theme = useTheme();
@@ -140,7 +156,7 @@ export default function NavBar() {
                 href={`#${text.replace(/\s+/g, "-").toLowerCase()}`}
               >
                 <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <PublicIcon />}
+                  {sideNavIcons[index % sideNavIcons.length]}
                 </ListItemIcon>
                 <ListItemText primary={text} />
               </ListItemButton>
