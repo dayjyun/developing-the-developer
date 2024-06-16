@@ -14,8 +14,6 @@ import { useEffect, useRef, useState } from "react";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
-import { useLocation } from "react-router-dom";
-
 const sections = [
   'introduction',
   'background',

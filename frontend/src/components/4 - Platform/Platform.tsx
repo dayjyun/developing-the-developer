@@ -55,13 +55,16 @@ export default function Platform() {
             title="Angular"
             style={{
               backgroundImage: `url(${angularLogo})`,
-              transform: "scale(1.4)",
+              transform: "scale(1.5)",
             }}
           ></div>
           <div
             className="logo"
             title="GitHub"
-            style={{ backgroundImage: `url(${githubLogo})` }}
+            style={{
+              backgroundImage: `url(${githubLogo})`,
+              transform: "scale(1.2)",
+            }}
           ></div>
         </div>
       </div>
@@ -75,7 +78,7 @@ export default function Platform() {
           <div style={{ margin: "0 auto" }}>
             <ModalEx />
           </div>
-            <ToggleEx />
+          <ToggleEx />
         </div>
       </div>
     </div>

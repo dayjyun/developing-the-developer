@@ -1,4 +1,3 @@
-import TextSphere from "./TextSphere/TextSphere";
 import "./EPAWorld.scss";
 import sdeLogo from "../../assets/images/sde-logo.png";
 import { Typography } from "@mui/material";

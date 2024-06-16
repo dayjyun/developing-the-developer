@@ -91,6 +91,7 @@ export default function SpecialThanks() {
       <br />
       <br />
       <br />
+      <br />
 
       <div className="thanks-interapt">
         <img
