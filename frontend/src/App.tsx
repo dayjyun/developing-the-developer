@@ -24,11 +24,9 @@ const sections = [
   'special-thanks'
 ];
 
-
 function App() {
    const [currentSection, setCurrentSection] = useState(0);
    const introRef = useRef<HTMLDivElement | null>(null)
-
 
     useEffect(() => {
       document.title = "Developing the Developer";
@@ -67,7 +65,7 @@ function App() {
         <NavBar />
       </div>
       <Container sx={{ minWidth: 320 }}>
-        <div ref={introRef} id="introduction"><Introduction /></div>
+        <div id="introduction"><Introduction /></div>
         <div id="background"><Background /></div>
         <div id="epa-world"><EPAWorld /></div>
         <div id="sde-platform"><Platform /></div>
