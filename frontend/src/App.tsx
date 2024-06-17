@@ -48,9 +48,7 @@ function App() {
   useEffect(() => {
     document.title = "Developing the Developer";
 
-    const favicon: HTMLLinkElement =
-      document.querySelector("link[rel='icon']") ||
-      document.createElement("link");
+    const favicon: HTMLLinkElement = document.querySelector("link[rel='icon']") || document.createElement("link");
     favicon.rel = "icon";
     favicon.href = "../favicon.ico";
     document.head.appendChild(favicon);
@@ -125,7 +123,7 @@ function App() {
         <div className="arrow-icons"
           style={{
             position: "fixed",
-            bottom: 60,
+            bottom: 80,
             right: 50,
             gap: 10,
             display: "flex",
@@ -133,12 +131,8 @@ function App() {
             transform: "scale(1.5)",
           }}
         >
-          <IconButton onClick={handleUpArrow}>
-            <ArrowUpwardIcon />
-          </IconButton>
-          <IconButton onClick={handleDownArrow}>
-            <ArrowDownwardIcon />
-          </IconButton>
+          <IconButton onClick={handleUpArrow}><ArrowUpwardIcon /></IconButton>
+          <IconButton onClick={handleDownArrow}><ArrowDownwardIcon /></IconButton>
         </div>
       </Container>
       <Footer />

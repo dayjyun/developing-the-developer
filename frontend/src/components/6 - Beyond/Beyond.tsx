@@ -20,19 +20,19 @@ export default function Beyond() {
         <div
           className="logo"
           title="SDE"
-          style={{ backgroundImage: `url(${sdeIcon})` }}
+          style={{ backgroundImage: `url(${sdeIcon})`, transform: "scale(0.9)" }}
         ></div>
         <div
           className="logo"
           title="MS Azure"
-          style={{ backgroundImage: `url(${azureLogo})` }}
+          style={{ backgroundImage: `url(${azureLogo})`, transform: "scale(1.1)" }}
         ></div>
         <div
           className="logo"
           title="Docker"
           style={{
             backgroundImage: `url(${dockerLogo})`,
-            transform: "scale(1.4)",
+            transform: "scale(1.5)",
           }}
         ></div>
       </div>

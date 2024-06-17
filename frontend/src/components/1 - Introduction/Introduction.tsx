@@ -9,7 +9,7 @@ export default function Introduction() {
         <Typography variant="h1">Kevin Barrios</Typography>
         <div className="details">
           <Typography variant="h3">
-            Junior Software Engineer
+            Apprentice Software Engineer
           </Typography>
           <Typography variant="h3">Chicago - Buffalo Grove</Typography>
           <Typography variant="h3">SDE Platform</Typography>
