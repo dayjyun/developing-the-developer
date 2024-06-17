@@ -4,12 +4,20 @@
   min-height: 900px;
   padding: 80px;
 
-  // .xperience-top {
-
-  // }
-
   .xperience-top, .experience-mid, .experience-bottom {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .challenges, .discovery {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.514);
+  }
+
+  .discovery {
+    // background-image: url($exclamation-mark);
+    background-repeat: no-repeat;
   }
 }

@@ -1,5 +1,7 @@
 import { Typography } from "@mui/material";
 import "./Experience.scss"
+import questionMark from "../../assets/images/question-mark-opaque.png"
+import exclamationMark from "../../assets/images/exclamation-mark-opaque.png"
 
 export default function Experience() {
     return (
@@ -69,9 +71,11 @@ export default function Experience() {
         <br />
 
         <div className="experience-bottom">
-          <ul>
-            <Typography variant="h4">Challenges</Typography>
-
+          <ul
+            className="challenges"
+            style={{ backgroundImage: `url(${questionMark})` }}
+          >
+          <Typography variant="h4">Challenges</Typography>
             <p>Who needs it?</p>
             <p>What do they need?</p>
             <p>Why do they need it?</p>
@@ -82,9 +86,12 @@ export default function Experience() {
           <br />
           <br />
 
-          <ul>
+          <ul
+            className="discovery"
+            style={{ backgroundImage: `url(${exclamationMark})` }}
+          >
             <Typography variant="h4">Discovery</Typography>
-            <p>Insights about EPA</p>
+            <p>EPA Insights</p>
             <p>Get to know the team</p>
             <p>Objectives</p>
             <p>Expectation</p>
