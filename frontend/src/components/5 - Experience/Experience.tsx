@@ -2,6 +2,7 @@ import { Typography } from "@mui/material";
 import "./Experience.scss"
 import questionMark from "../../assets/images/question-mark-opaque.png"
 import exclamationMark from "../../assets/images/exclamation-mark-opaque.png"
+import star from "../../assets/images/star-opaque.png"
 
 export default function Experience() {
     return (
@@ -42,14 +43,17 @@ export default function Experience() {
         <br />
         <br />
 
-        <div className="experience-mid">
+        <div className="experience-mid" >
           <div>
             <Typography variant="h4">Differences</Typography>
             <p>Cucumber -{">"} Mockito</p>
             <p>Maven -{">"} Gradle</p>
             <p>Angular -{">"} React</p>
           </div>
-          <div>
+          <div
+            className="star"
+            style={{ backgroundImage: `url(${star})` }}
+          >
             <Typography variant="h4">New</Typography>
             <p>Azure</p>
             <p>Figma</p>
@@ -75,7 +79,7 @@ export default function Experience() {
             className="challenges"
             style={{ backgroundImage: `url(${questionMark})` }}
           >
-          <Typography variant="h4">Challenges</Typography>
+            <Typography variant="h4">Challenges</Typography>
             <p>Who needs it?</p>
             <p>What do they need?</p>
             <p>Why do they need it?</p>
