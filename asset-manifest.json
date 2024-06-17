@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/developing-the-developer/static/css/main.c5bc7005.css",
-    "main.js": "/developing-the-developer/static/js/main.355bf216.js",
+    "main.css": "/developing-the-developer/static/css/main.73edaf08.css",
+    "main.js": "/developing-the-developer/static/js/main.7f6ce2a7.js",
     "static/js/453.d855a71b.chunk.js": "/developing-the-developer/static/js/453.d855a71b.chunk.js",
     "static/media/azure-logo.png": "/developing-the-developer/static/media/azure-logo.73df085136919074be9b.png",
     "static/media/sde-icon-transparent.png": "/developing-the-developer/static/media/sde-icon-transparent.5bf1b4ec40108c538efb.png",
@@ -19,6 +19,7 @@
     "static/media/mk-banana.png": "/developing-the-developer/static/media/mk-banana.ecfd42bd73fe887c9729.png",
     "static/media/docker-logo.png": "/developing-the-developer/static/media/docker-logo.fdefb27628262408ebf2.png",
     "static/media/question-mark-opaque.png": "/developing-the-developer/static/media/question-mark-opaque.08237d2728a11f4065d3.png",
+    "static/media/star-opaque.png": "/developing-the-developer/static/media/star-opaque.60f1ba3f1c59722cc9fc.png",
     "static/media/backstage-icon-white.png": "/developing-the-developer/static/media/backstage-icon-white.e20381e20d6a40032fb8.png",
     "static/media/react-logo_black-text.jpg": "/developing-the-developer/static/media/react-logo_black-text.cef1494d881cef843b36.jpg",
     "static/media/interapt_logo.png": "/developing-the-developer/static/media/interapt_logo.3e2dab0bc3acaa536945.png",
@@ -29,12 +30,12 @@
     "static/media/github-logo.jpg": "/developing-the-developer/static/media/github-logo.92087b460a5ad97d0f2c.jpg",
     "static/media/general_assembly_logo_long.webp": "/developing-the-developer/static/media/general_assembly_logo_long.45d9243f071bd42ab93a.webp",
     "index.html": "/developing-the-developer/index.html",
-    "main.c5bc7005.css.map": "/developing-the-developer/static/css/main.c5bc7005.css.map",
-    "main.355bf216.js.map": "/developing-the-developer/static/js/main.355bf216.js.map",
+    "main.73edaf08.css.map": "/developing-the-developer/static/css/main.73edaf08.css.map",
+    "main.7f6ce2a7.js.map": "/developing-the-developer/static/js/main.7f6ce2a7.js.map",
     "453.d855a71b.chunk.js.map": "/developing-the-developer/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5bc7005.css",
-    "static/js/main.355bf216.js"
+    "static/css/main.73edaf08.css",
+    "static/js/main.7f6ce2a7.js"
   ]
 }
