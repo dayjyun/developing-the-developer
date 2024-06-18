@@ -61,17 +61,6 @@ function App() {
       threshold: 0.5,
     };
 
-    const observerCallback = (entries: IntersectionObserverEntry[]) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const visibleSectionIndex = sectionRefs.findIndex(
-            (ref) => ref.current === entry.target
-          );
-          setCurrentSection(visibleSectionIndex);
-        }
-      });
-    };
-
     const observer = new IntersectionObserver(
       observerCallback,
       observerOptions
@@ -87,6 +76,30 @@ function App() {
       observer.disconnect();
     };
   }, [sectionRefs]);
+
+  useEffect(() => {
+    const handleKeyPress = (e: any) => {
+      if (e.key === "ArrowUp" || e.key.toLowerCase() === "w") {
+        handleUpArrow();
+      } else if (e.key === "ArrowDown" || e.key.toLowerCase() === "s") {
+        handleDownArrow();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener("keydown", handleKeyPress);
+  }, [currentSection]);
+
+  const observerCallback = (entries: IntersectionObserverEntry[]) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const visibleSectionIndex = sectionRefs.findIndex(
+          (ref) => ref.current === entry.target
+        );
+        setCurrentSection(visibleSectionIndex);
+      }
+    });
+  };
 
   const scrollToSection = (index: number) => {
     const sectionRef = sectionRefs[index];

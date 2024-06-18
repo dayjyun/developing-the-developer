@@ -46,7 +46,7 @@ export default function Background() {
           <br />
           <br />
           <br />
-          
+
           <TableHead>
             <TableRow>
               <TableCell colSpan={5} style={{ textAlign: "center" }}>
@@ -65,7 +65,7 @@ export default function Background() {
                 1 Year Immersive Program
               </TableCell>
               <TableCell colSpan={1} style={{ textAlign: "center" }}>
-                JavaScript, React, Express
+                JavaScript, Express, React
               </TableCell>
               <TableCell colSpan={1} style={{ textAlign: "center" }}>
                 Weekly Assessments 80%+ Pass Rate
