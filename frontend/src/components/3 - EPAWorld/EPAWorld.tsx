@@ -13,11 +13,18 @@ export default function EPAWorld() {
           <img src={sdeLogo} alt="SDE logo" className="sde-logo" />
         </div>
       </div>
+      <p className="full-text">Enterprise Product Acceleration</p>
       <br />
       <br />
 
       {/* <TextSphere /> */}
-      <div className="word-cloud-container"><img src={wordCloud} alt="Word Cloud" className="epa-world-word-cloud" /></div>
+      <div className="word-cloud-container">
+        <img
+          src={wordCloud}
+          alt="Word Cloud"
+          className="epa-world-word-cloud"
+        />
+      </div>
       <br />
 
       <div className="text-area">
